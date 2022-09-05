@@ -1,0 +1,50 @@
+.main {
+  border-radius: 20px;
+  height: 80px;
+  background-color: grey;
+  margin: auto;
+}
+.wrap1 {
+  background-color: #f56942;
+  height: 500px;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+}
+.center {
+  text-align: center;
+  margin-top: 70%;
+  color: white;
+}
+.wrap2 {
+  background-color: rgba(165, 160, 160, 0.986);
+  height: 500px;
+  border-top-right-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+.wrap3 {
+}
+.btn-col1 {
+  background-color: white;
+  color: black;
+  border-radius: 12px;
+  border: 0px solid white;
+  float: left;
+}
+.btn-col2 {
+  background-color: black;
+  color: white;
+  border-radius: 12px;
+  float: right;
+}
+.margin {
+  margin-top: 15px;
+}
+.form-control {
+  height: 35px;
+}
+.form_wrap{
+    margin-top:20px;
+}
+.btext{
+    margin-top: 30px;
+}

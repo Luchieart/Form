@@ -1,0 +1,38 @@
+.container{
+    background-color: rgb(0, 100, 50);
+    height:350px;
+    padding-top: 50px;
+ padding-left:30px;
+}
+.row{
+    color:#03fc94;
+}
+button{
+    background-color:  #006432;
+    border:1px solid #03fc94;
+    color:#03fc94;
+    height: 30px;
+}
+.col-lg-4{
+    background-color:  rgb(0, 100, 50);
+    border-radius:150px;
+    height:220px;
+    width:220px;
+    padding-left: px;
+    text-align: center;
+    color:white;
+    font-size:larger;
+}
+.container2{
+    padding-top:50px;
+    margin-top: 70px;
+    margin-left:150px;
+
+
+}
+.container3{
+padding-top:50px;
+    margin-top: 70px;
+    margin-left:150px;
+   
+}

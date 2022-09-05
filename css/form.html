@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<>, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.min.css" />
+    <link rel="stylesheet" href="form.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="main col-lg-8 col-sm-8">
+          <div class="row">
+            <div class="wrap1 col-lg-5">
+              <div class="center">
+                <h1>Welcome</h1>
+                <p>Welcome to xtreme hub</p>
+              </div>
+            </div>
+            <div class="wrap2 col-lg-7">
+              <div class="container btext">
+                <h2>Hello!Please tell us a little about yourself.</h2>
+              </div>
+              <div class="container form_wrap">
+                <div class="row">
+                  <div class="container-fluid">
+                    <div class="row">
+                      <div class="col-lg-12">
+                        <div class="row">
+                          <div class="col-lg-6 wrap3">
+                            <label for="name" id="fname">First Name:</label>
+                            <div style="color: red" class="fNameError"></div>
+                            <input type="text" class="form-control" />
+                          </div>
+                          <div class="form-group wrap4 col-lg-6">
+                            <label for="name" id="lname"> Last Name:</label>
+                            <input type="text" class="form-control" />
+                            <div style="color: red" class="lNameError"></div>
+                          </div>
+                          <button onclick="myFunction()">Submit</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group wrap5 col-lg-12">
+                    <label for="name" id="name">Email Address:</label>
+                    <input type="text" class="form-control" />
+                  </div>
+                  <div class="form-group wrap5 col-lg-12">
+                    <label for="name" id="name">Address:</label>
+                    <input type="text" class="form-control" />
+                  </div>
+                  <div class="form-group wrap5 col-lg-6">
+                    <label for="name" id="name">City:</label>
+                    <input type="text" class="form-control" />
+                  </div>
+                  <div class="margin">
+                    <button type="button" class="btn-col1">Back</button>
+                    <button type="button" class="btn-col2">Back</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function myFunction() {
+        var fName = document.getElementsByID("fname");
+        var fNameError = document.getElementsByClassName(".fNameError");
+        if (fName == "") {
+          return (document.getElementsByClassName(".fNameError").innerHTML =
+            "Name is required");
+        } else {
+          document.getElementsByClassName(".fNameError").innerHTML = " ";
+        }
+        if (lName == "") {
+          return (document.getElementsByClassName("lfNameError").innerHTML =
+            "Name is required");
+        } else {
+          document.getElementsByClassName(".lNameError").innerHTML = " ";
+        }
+      }
+    </script>
+  </body>
+</html>
